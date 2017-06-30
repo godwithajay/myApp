@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Users" max_length="40" name="x_138714_myapp_users" type="collection">
+        <element label="Department" max_length="20" name="department" type="string"/>
+        <element label="Designation" max_length="20" name="designation" type="string"/>
+        <element label="Employee ID" max_length="10" name="employee_id" type="string"/>
+        <element label="First Name" max_length="20" name="first_name" type="string"/>
+        <element label="Last Name" max_length="20" name="last_name" type="string"/>
+        <element label="Mobile Number" max_length="10" name="mobile_number" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
